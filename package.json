@@ -1,7 +1,7 @@
 {
   "name": "Collector",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "node app.js",
     "test": "nyc --reporter=lcov --reporter=json mocha --reporter=xunit-file"
