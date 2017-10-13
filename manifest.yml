@@ -1,5 +1,5 @@
 ---
 applications:
-- name: garagecollector
+- name: Collector-Backend
   random-route: true
   memory: 128M
