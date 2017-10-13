@@ -2,8 +2,8 @@ var cloudant = require('cloudant');
 var cloudantCredentials = require('../cloudantConfig.json');
 
 cloudant = cloudant({
-   account: cloudantCredentials.username,
-   password: cloudantCredentials.password
+   account: cloudantCredentials.CLOUDANT_USERNAME,
+   password: cloudantCredentials.CLOUDANT_PASSWORD
 });
 
 var database = cloudant.db.use('questions-collector');
